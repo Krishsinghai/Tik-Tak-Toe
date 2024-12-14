@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text for contrast */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.head {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 5px #333;
+    font-size: 30px;
+    font-weight: bold;
+    color: #e0e0e0;
+}
+
+.container {
+    min-height: 500px;
+    min-width: 500px;
+    background-color: rgba(50, 50, 50, 0.8); /* Semi-transparent dark container */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.box {
+    height: 140px;
+    width: 140px;
+    background-color: #1f1f1f; /* Darker box background */
+    color: #e0e0e0; /* Light text for boxes */
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 100px;
+    display: flex;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+    height: 50px;
+    width: 100px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: #333333; /* Dark button background */
+    color: #ffffff; /* Light button text */
+    border-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #555555; /* Lighter shade on hover */
+}
